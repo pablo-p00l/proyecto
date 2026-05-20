@@ -62,7 +62,7 @@ let decimal = 3.14; //Número decimal
 // const kelvin = celsius3 + 273.15; // Conversión a Kelvin
 // console.log("kelvin: ", + kelvin + " convertido de celsius a kelvin");
 
-//PRODUCTO CON PRECIO ORIGINAL Y DESCUENTO
+// 1-PRODUCTO CON PRECIO ORIGINAL Y DESCUENTO
  const precioOriginal = 15000; 
   let Descuento = 0.20; // Descuento del 20%
    let precioConDescuento = precioOriginal * (1 - Descuento); // Cálculo del precio con descuento
@@ -70,7 +70,7 @@ let decimal = 3.14; //Número decimal
    console.log("Descuento: ", + Descuento);
    console.log("PrecioConDescuento: ", + precioConDescuento);
 
-   //DATOS DE UNA PERSONA
+   // 2-DATOS DE UNA PERSONA
 
    const nombre = "Pablo"
    const edad= 25
@@ -84,4 +84,37 @@ let decimal = 3.14; //Número decimal
     console.log("Altura: ", Altura + " TIPO number decimal");
     console.log("Está empleado: ", estaEmpleado + " TIPO booleano verdadero");
 
-    
+// 3-AREA Y PERÍMETRO DE UN RECTÁNGULO
+
+const base = 8;
+const altura = 5;
+const area = base * altura; // Cálculo del área
+const perimetro = 2 * (base + altura); // Cálculo del perímetro
+
+console.log("Base: ", base);
+console.log("Altura: ", altura);
+console.log("Área: ", area);
+console.log("Perímetro: ", perimetro);
+
+// 4-SEGUNDOS A HORAS, MINUTOS Y SEGUNDOS
+
+const totalSegundos = 3725; // Total de segundos
+const horas = Math.floor(totalSegundos / 3600); // Cálculo de horas
+const minutos = Math.floor((totalSegundos % 3600) / 60); // Cálculo de minutos
+const segundos = totalSegundos % 60; // Cálculo de segundos restantes
+
+console.log(`${horas}h ${minutos}m ${segundos}s`); // Imprime el resultado en formato horas:minutos:segundos
+
+// Ejercicio 5 — Intercambiar variables (sin variable auxiliar)
+
+let a = 10;
+let b = 20;
+
+// a = a + b; // a ahora es 30
+// b = a - b; // b ahora es 10 (30 - 20)
+// a = a - b; // a ahora es 20 (30 - 10) forma tradicional
+
+[a, b] = [b, a]; // Intercambio usando destructuración forma moderna
+
+console.log("Valor de a después del intercambio: ", a); // Debería imprimir 20
+console.log("Valor de b después del intercambio: ", b); // Debería imprimir 10
