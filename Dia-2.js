@@ -116,7 +116,7 @@ if(a > b && a > c ){
     console.log("C es mayor: ", c)
 }
 
-let mayor = [45,82,37,99]; // creamos array de numero y con math.max recorremos para encontrar el mayor
+let mayor = Math.max[45,82,37,99]; // creamos array de numero y con math.max recorremos para encontrar el mayor
 
-console.log(Math.max(...mayor)); // ...mayor : recorremos el array y encontramos el numero mayor
+console.log(Math.max(...mayor)); // ...mayor : recorremos el array y encontramos el numero mayor 
 

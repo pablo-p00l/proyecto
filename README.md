@@ -9,3 +9,6 @@ Dia 2 (
      Tu progreso Día 2
 EjercicioEstadoCalculadora IMC✅Número positivo/negativo/cero✅Año bisiesto✅Calculadora con switch✅Nota del alumno✅Mayor de tres números✅Math.max() con spread✅ bonus
 )
+Dia 3(
+     EjercicioEstadoTabla de multiplicar✅FizzBuzz✅Sumar array✅Número primo⚠️ lógica corregidaPirámide de asteriscos✅
+)
