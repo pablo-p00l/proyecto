@@ -12,3 +12,6 @@ EjercicioEstadoCalculadora IMC✅Número positivo/negativo/cero✅Año bisiesto�
 Dia 3(
      EjercicioEstadoTabla de multiplicar✅FizzBuzz✅Sumar array✅Número primo⚠️ lógica corregidaPirámide de asteriscos✅
 )
+Dia 4(
+    EjercicioEstadoSaludar✅Par o impar⚠️ corregir returnMayor de dos números✅Promedio⚠️ falta toFixed(2)Convertidor✅ corregir lógica 
+)
