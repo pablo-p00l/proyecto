@@ -44,10 +44,8 @@ console.log(parOImpar(10));
 console.log(parOImpar(7));
 
 
-const mayor = (a,b) =>{
- if (a > b) {return "A es mayor"
-}else if(b > a) {return"B es mayor"}else{return "son iguales"}
-}
+const mayor = (numero) => numero % 2 === 0 ? "par": "impar";
+
 console.log(mayor(5,5))
 console.log(mayor (50,5))
 console.log(mayor (50,500))
