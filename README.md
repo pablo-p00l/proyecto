@@ -15,3 +15,6 @@ Dia 3(
 Dia 4(
     EjercicioEstadoSaludar✅Par o impar⚠️ corregir returnMayor de dos números✅Promedio⚠️ falta toFixed(2)Convertidor✅ corregir lógica 
 )
+Dia 5(
+     DíaTemaEstadoDía 1Variables y tipos de datos✅Día 2Condicionales y operadores✅Día 3Bucles✅Día 4Funciones✅Día 5Arrays y métodos✅
+)
