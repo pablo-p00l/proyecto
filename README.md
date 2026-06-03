@@ -18,3 +18,6 @@ Dia 4(
 Dia 5(
      DíaTemaEstadoDía 1Variables y tipos de datos✅Día 2Condicionales y operadores✅Día 3Bucles✅Día 4Funciones✅Día 5Arrays y métodos✅
 )
+Dia 6 (
+     Objeto Persona✅Destructuring✅Objeto Auto con métodos✅Array de objetos con filter/map/reduce✅
+)
